@@ -2,6 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", function() {
   function change() {
-    document.getElementById("text").innerHTML = "This is really cool!";
+    document.getElementById("text");
+    text.innerHTML = "This is really cool!";
   }
 });
